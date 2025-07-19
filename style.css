@@ -1,0 +1,165 @@
+body {
+  background-color: #eef086;
+}
+
+#head {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #eef086;
+    align-items: center;
+
+}
+
+#com, #navbar, #socials {
+  padding: 1rem;
+  min-width: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar {
+  justify-content: space-between;
+  gap: 10px;
+}
+
+
+#socials img {
+  width: 24px;
+  height: 24px;
+  margin: 0 0.5rem;
+}
+
+#banner {
+    background-image: url("../images/Pokemon-Magikarp-With-Deal-With-It-Glasses.jpg");
+    width: 100%;
+    height: 300;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    place-items: center;
+    background-position: center;
+    
+}
+#com {
+  width: 100px;
+}
+h2, #pee, #button {
+  justify-items: center;
+  padding: 1rem;
+  min-width: 100px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 600px
+}
+
+h2, #pee {
+  width: 300px;
+}
+
+
+#pee {
+  color: white;
+}
+
+#button {
+  border: none;
+  border-radius: 25px;
+}
+
+#principal {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 100px;
+}
+
+.article {
+
+  padding: auto;
+  display: grid;
+  width: 100%;
+  text-align: justify;
+  padding: 20px;
+  margin: 0;
+  gap: 20px;
+}
+
+.article :first-child {
+  max-width: 300px;
+}
+
+.article :nth-child(2) {
+  color: white;
+}
+
+
+main {
+  background-color: salmon;
+  justify-items: center;
+  padding-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  margin-bottom: -5;
+}
+
+#new {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: auto;
+}
+
+#newest {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  gap: 50px;
+}
+
+#newsletter {
+  margin-top: 100px;
+  justify-content: center;
+  gap: 30px;
+  width: 1000px;
+  background-color: #eef086;
+  border-radius: 25px;
+  display: grid;
+  padding: 50px;
+  margin-bottom: 200px;
+}
+
+#newsletter :first-child {
+  width: fit-content;
+  text-align: center;
+}
+
+#email {
+  display: flex;
+  gap: 20px;
+
+}
+
+#email :first-child {
+  border-style: solid;
+  border-color: #FFDB58;
+  min-width: 200px;
+  border-radius: 10px;
+}
+#email :nth-child(2) {
+  border-radius: 25px;
+  color: white;
+  background-color: black;
+  padding: 10px;
+
+}
+
+footer {
+  background-color: #eef086;
+  margin: 0;
+  margin-top: 0;
+}
